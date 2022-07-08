@@ -1,15 +1,15 @@
-import ButtonWithDropdown from "./Components/ButtonWithDropdown.vue";
-import HeaderCell from "./Components/HeaderCell.vue";
-import OnClickOutside from "./Components/OnClickOutside.vue";
-import Pagination from "./Components/Pagination.vue";
-import Table from "./Components/Table.vue";
-import TableAddSearchRow from "./Components/TableAddSearchRow.vue";
-import TableColumns from "./Components/TableColumns.vue";
-import TableFilter from "./Components/TableFilter.vue";
-import TableGlobalSearch from "./Components/TableGlobalSearch.vue";
-import TableReset from "./Components/TableReset.vue";
-import TableSearchRows from "./Components/TableSearchRows.vue";
-import TableWrapper from "./Components/TableWrapper.vue";
+import ButtonWithDropdown from "./Components/vue/ButtonWithDropdown.vue";
+import HeaderCell from "./Components/vue/HeaderCell.vue";
+import OnClickOutside from "./Components/vue/OnClickOutside.vue";
+import Pagination from "./Components/vue/Pagination.vue";
+import Table from "./Components/vue/Table.vue";
+import TableAddSearchRow from "./Components/vue/TableAddSearchRow.vue";
+import TableColumns from "./Components/vue/TableColumns.vue";
+import TableFilter from "./Components/vue/TableFilter.vue";
+import TableGlobalSearch from "./Components/vue/TableGlobalSearch.vue";
+import TableReset from "./Components/vue/TableReset.vue";
+import TableSearchRows from "./Components/vue/TableSearchRows.vue";
+import TableWrapper from "./Components/vue/TableWrapper.vue";
 import { getTranslations, setTranslation, setTranslations } from "./translations";
 
 export {

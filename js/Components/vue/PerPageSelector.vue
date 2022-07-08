@@ -19,7 +19,7 @@
 <script setup>
 import { computed } from "vue";
 import uniq from "lodash-es/uniq"
-import { getTranslations } from "../translations.js"
+import { getTranslations } from "../../translations.js"
 
 const translations = getTranslations();
 

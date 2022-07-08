@@ -4,11 +4,13 @@
   "description": "Inertia.js Front-end Components for Spatie's Laravel Query Builder",
   "author": "Pascal Baljet <pascal@protone.media>",
   "license": "MIT",
+  "type": "module",
   "files": [
     "dist"
   ],
   "main": "./dist/inertiajs-tables-laravel-query-builder.umd.js",
   "module": "./dist/inertiajs-tables-laravel-query-builder.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/inertiajs-tables-laravel-query-builder.es.js",
@@ -20,22 +22,37 @@
     "build": "vite build",
     "test": "vitest run --environment jsdom",
     "test-dev": "vitest --environment jsdom",
-    "eslint": "eslint js/ --ext .js,.vue --fix"
+    "eslint": "eslint js/ --ext .js,.vue,.tsx --fix"
   },
   "dependencies": {
-    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@headlessui/react": "^1.6.6",
+    "@inertiajs/inertia-react": "^0.8.0",
     "@popperjs/core": "^2.11.5",
     "lodash-es": "^4.17.21",
-    "qs": "^6.10.5"
+    "qs": "^6.10.5",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.3",
-    "@vue/test-utils": "^2.0.0",
+    "@react-native-community/eslint-config": "^3.0.2",
+    "@babel/core": "^7.16.12",
+    "@types/node": "^18.0.3",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "@vitejs/plugin-react": "^1.3.2",
+    "babel-loader": "^8.2.3",
     "eslint": "^8.18.0",
-    "eslint-plugin-vue": "^9.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "jsdom": "^19.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4",
     "vite": "^2.9.9",
-    "vitest": "^0.13.0",
-    "vue": "^3.2.36"
+    "vite-plugin-dts": "^1.2.1",
+    "vitest": "^0.13.0"
   }
 }
